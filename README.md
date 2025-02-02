@@ -24,3 +24,19 @@ I built the tool by following his course and updated it to work with the PySide6
 3. Automating renaming of the textures to be within naming conventions
 4. Extending resolution validation for non-square sizes (width != height)
 5. Adding support for textures that use material layering
+
+## How to install and use:
+
+1. Download this GitHub repository as a ZIP-file under the Code tab and unzip it into a folder.
+
+2. Connect the flex sensor glove and Teensy 4.0 circuit to an available USB-port on your computer.
+
+3. Go to the Arduino folder inside the unzipped GitHub repository folder. Then double-click the P4prototype.ino file and run it.
+
+4. In JUCE, click Open Existing Project > select the file path of the now unzipped repository folder and then click on the P4 project.jucer file.
+
+5. Make sure that audio output from your PC speakers is enabled (or whatever audio output device you want to use).
+
+6. Inside the JUCE project, click on the Run icon to start the program.
+
+7. Enjoy using the music glove and its GUI!
