@@ -9,4 +9,14 @@ Will only export to a specified folder, based on the selected asset name, and ha
 
 Hot-keys and documentation are included. 
 
+This project was made possible because of Viacheslav Makhynko and the knowledge-sharing from his Udemy course in Python automation with Substance Painter - 
+I built the tool by following his course and updated it to work with the PySide6 module and, as of the writing of this .README file, the latest stable version of Python (3.13.1) and Substance Painter (10.1.2).
+
+For future work I plan to extend upon the project and add at least some of the following features:
+
+1. Integrating version control system support for the exported textures
+2. Adding support for exporting textures that are using UV Tile workflow (UDIms)
+3. Automating renaming of the textures to be within naming conventions
+4. Extending resolution validation for non-square sizes (width != height)
+5. Adding support for textures that use material layering
 
