@@ -1,5 +1,7 @@
 # Substance-Painter-Texture-Exporting-Tool
 
+<img width="1134" alt="CustomExporter" src="https://github.com/user-attachments/assets/2ecccbb3-951d-4ad1-9b31-276cc7adf27d" />
+
 Scripts for a custom texture exporting tool, meant for use in a larger scale game production. It only allows export of texture sets from Substance Painter that validate specified naming conventions and texture budgets for selected asset types.
 
 If naming conventions or texture resolutions do not pass the validation checks for a given texture set, exporting will be disabled for that texture set, until it meets the validation requirements.
@@ -20,5 +22,3 @@ For future work I plan to extend upon the project and add at least some of the f
 3. Automating renaming of the textures to be within naming conventions
 4. Extending resolution validation for non-square sizes (width != height)
 5. Adding support for textures that use material layering
-
-<img width="1134" alt="CustomExporter" src="https://github.com/user-attachments/assets/2ecccbb3-951d-4ad1-9b31-276cc7adf27d" />
