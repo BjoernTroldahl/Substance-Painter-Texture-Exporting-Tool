@@ -107,11 +107,9 @@ class CustomExporter:
         self.table_widget = QTableWidget()
         self.table_widget.setMinimumSize(730,250)
         self.init_rows_and_cols_table()
-        #self.fill_table()
         self.main_layout.addWidget(self.table_widget)
 
         #Export button
-        #module_export.exporting()
         self.export_button = QPushButton("Export")
         self.export_button.setToolTip("Trigger export of all checked texture sets \nHotkey: Alt + E")
         self.export_button.setShortcut(QtGui.QKeySequence(QtCore.Qt.ALT | QtCore.Qt.Key_E))
@@ -391,7 +389,7 @@ class DialogWindow(QDialog):
         text_label = QLabel("There is a validation error in the Resolution Check step. \nBut no worries, the tool can automatically adjust the resolution of all texture sets that do not meet the requirements. \nDo you want to proceed?")
         layout.addWidget(text_label)
 
-        buttons = QDialogButtonBox(QDialogButtonBox.Yes | QDialogButtonBox.No) #CHECK IF THIS GIVES AN ERROR
+        buttons = QDialogButtonBox(QDialogButtonBox.Yes | QDialogButtonBox.No)
         buttons.accepted.connect(self.accept)
         buttons.rejected.connect(self.reject)
         buttons.button(QDialogButtonBox.Yes).setText("Yes, apply the required resolution for all texture sets.")
