@@ -28,7 +28,9 @@ I built the tool by following his course and updated it to work with the PySide6
 ## How to install and use:
 
 1. Download this GitHub repository as a ZIP-file under the Code tab and unzip it into a folder.
-2. Navigate to the Python folder of your Substance Painter installation. By default it is C:\Users\YOUR_USER_NAME\Documents\Adobe\Adobe Substance 3D Painter\python
-3. Paste the .vscode, modules, plugins and startup folders.
+2. Navigate to the Python folder of your Substance Painter installation. By default it is *C:\Users\YOUR_USER_NAME\Documents\Adobe\Adobe Substance 3D Painter\python*
+3. Copy and paste the *.vscode, modules, plugins* and *startup* folders here from your unzipped folder.
 4. Open Substance Painter.
-5. You should now be able to access the Custom Exporter tool. Make sure that Python -> custom_exporter and Window -> Views -> Custom Exporter are ENABLED from the top left menu options.
+5. You should now be able to access the Custom Exporter tool. Make sure that *Python -> custom_exporter* and *Window -> Views -> Custom Exporter* are ENABLED from the top left menu options.
+6. The Custom Exporter tool should now appear as a widget window in the middle of your screen, that you can dock anywhere you want inside the Substance Painter editor. It behaves like all the other widget windows.
+7. You can now open any Substance Apinter project and utilize the Custom Exporter for streamlining texture exports. Click the blue help icon in the tool to get started, all information on how to use it is written there.
