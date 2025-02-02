@@ -33,4 +33,4 @@ I built the tool by following his course and updated it to work with the PySide6
 4. Open Substance Painter.
 5. You should now be able to access the Custom Exporter tool. Make sure that *Python -> custom_exporter* and *Window -> Views -> Custom Exporter* are ENABLED from the top left menu options.
 6. The Custom Exporter tool should now appear as a widget window in the middle of your screen, that you can dock anywhere you want inside the Substance Painter editor. It behaves like any other widget windows.
-7. You can now open any Substance Painter project and utilize the Custom Exporter for streamlining texture exports. Click the blue help icon in the tool to get started, all information on how to use it is written there.
+7. You can now open any Substance Painter project and utilize the Custom Exporter for streamlining texture exports. Click on the tool's blue help icon to get started, all information on how to use it is written there.
