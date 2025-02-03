@@ -2,6 +2,8 @@
 
 <img width="1134" alt="CustomExporter" src="https://github.com/user-attachments/assets/2ecccbb3-951d-4ad1-9b31-276cc7adf27d" />
 
+[![Watch the video](https://github.com/user-attachments/assets/338f9746-1629-4bfb-84bc-a487082d3e1e)
+
 ## Description
 
 Scripts for a custom texture exporting tool, meant for use in a larger scale game production. It only allows export of texture sets from Substance Painter that validate specified naming conventions and texture budgets for dropdown-selectable asset types.
