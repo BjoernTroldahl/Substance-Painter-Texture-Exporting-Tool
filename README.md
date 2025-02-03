@@ -21,7 +21,7 @@ I built the tool by following his course and updated it to work with the PySide6
 
 - Integrating version control system support for the exported textures
 - Adding support for exporting textures that are using UV Tile workflow (UDIms)
-- Automating renaming of the textures to be within naming conventions
+- Automation of texture renaming to be within naming conventions
 - Extending resolution validation for non-square sizes (width != height)
 - Adding support for textures that use material layering
 
