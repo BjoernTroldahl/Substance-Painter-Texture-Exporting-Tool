@@ -8,13 +8,13 @@ Scripts for a custom texture exporting tool, meant for use in a larger scale gam
 
 If naming conventions or texture resolutions do not pass the validation checks for a given texture set, exporting will be disabled for that texture set, until it meets the validation requirements.
 
-The tool can automatically change the texture resolution to meet the texture budget, and allows lower resolution as long as the texture don't exceed the maximum allowed budget per asset type texture.
+The tool can automatically change the texture resolution to meet the texture budget, and allows lower resolution as long as the texture doesn't exceed the maximum allowed budget per asset type texture.
 
 It will only export to a specified folder, based on the selected asset name, and a dropdown-selectable shader type controls the export presets.
 
 Hot-keys and documentation are included. 
 
-This project was made possible because of Viacheslav Makhynko and the knowledge-sharing from his Udemy course in Python automation in Substance Painter. 
+This project was made possible because of Viacheslav Makhynko and the knowledge-sharing from his Udemy course about Python automation in Substance Painter. 
 I built the tool by following his course and updated it to work with the PySide6 module and, as of the writing of this .README file, the latest stable version of Python (3.13.1) and Substance Painter (10.1.2).
 
 <ins>*For future work, I plan to extend upon the project and add at least some of the following features:*</ins>
