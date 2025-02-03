@@ -36,5 +36,5 @@ https://github.com/user-attachments/assets/338f9746-1629-4bfb-84bc-a487082d3e1e
 5. You should now be able to access the Custom Exporter tool. Make sure that *Python -> custom_exporter* and *Window -> Views -> Custom Exporter* are ENABLED from the top left menu options.
 6. The Custom Exporter tool should now appear as a widget window in the middle of your screen, that you can dock anywhere you want inside the Substance Painter editor. It behaves like any other widget windows.
 7. You can now open any Substance Painter project and utilize the Custom Exporter for streamlining texture exports. Click on the tool's blue help icon to get started, all information on how to use it is written there.
-8. For dev work on the tool, you need to open the Python modules in Visual Studio Code (or another IDE of choice with Python support, but VS Code is what I used).
-9. Then add  *"python.analysis.extraPaths": ["C:/Program Files/Adobe/Adobe Substance 3D Painter/resources/python/modules"]* under the default interpreter path in the *settings.json* file.
+8. OPTIONAL: For dev work on the tool, you need to open the Python modules in Visual Studio Code (or another IDE of choice with Python support, but VS Code is what I used).
+9. OPTIONAL: Then add  *"python.analysis.extraPaths": ["C:/Program Files/Adobe/Adobe Substance 3D Painter/resources/python/modules"]* under the default interpreter path in the *settings.json* file.
