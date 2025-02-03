@@ -2,7 +2,7 @@
 
 <img width="1134" alt="CustomExporter" src="https://github.com/user-attachments/assets/2ecccbb3-951d-4ad1-9b31-276cc7adf27d" />
 
-[![Watch the video](https://github.com/user-attachments/assets/338f9746-1629-4bfb-84bc-a487082d3e1e)
+(https://github.com/user-attachments/assets/338f9746-1629-4bfb-84bc-a487082d3e1e)
 
 ## Description
 
